@@ -1,0 +1,103 @@
+.team-section {
+  background-color: #f2efe4;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 1px;
+}
+
+.team-section h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subheading {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  margin: 50px 0 30px;
+}
+
+.team-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.team-row.row-2 .card {
+  flex: 1 1 45%;
+  max-width: 280px;
+}
+
+.team-row.row-3 .card {
+  flex: 1 1 30%;
+  max-width: 280px;
+}
+
+/* Card Styling */
+.card {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+}
+
+.card-info h3 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.card-info p {
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+  color: #777;
+}
+
+.icons, .ico {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.linkedin-icon {
+  font-size: 1.4rem;
+  color: #0a66c2;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.linkedin-icon:hover {
+  color: #004182;
+  transform: scale(1.1);
+}
+
+
+/* Responsive */
+/* Responsive */
+@media (max-width: 768px) {
+  .team-row .card {
+    flex: 1 1 100%;
+    max-width: 90%;
+  }
+}

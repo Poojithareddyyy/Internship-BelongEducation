@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Large Vision Kit",
+    "price": 800,
+    "image": "large-vision-kit.jpg",
+    "description": "Complete large kit for vision testing"
+  },
+  {
+    "id": 2,
+    "name": "Small Vision Kit",
+    "price": 500,
+    "image": "small-vision-kit.jpg",
+    "description": "Compact kit suitable for basic usage" 
+  },
+  {
+    "id": 3,
+    "name": "Brown Frame",
+    "price": 500,
+    "image": "frame-brown.jpg",
+    "description": "Durable frame in red color"
+  },
+  {
+    "id": 4,
+    "name": "Blue Frame",
+    "price": 500,
+    "image": "frame-blue.jpg",
+    "description": "Durable frame in blue color"
+  },
+  {
+    "id": 5,
+    "name": "Full Rim Frame",
+    "price": 500,
+    "image": "full-rim.jpg",
+    "description": "Durable frame in green color"
+  },
+  {
+    "id": 6,
+    "name": "Black Frame",
+    "price": 500,
+    "image": "frame-black.jpg",
+    "description": "Durable frame in black color"
+  },
+  {
+    "id": 7,
+    "name": "Oakley Frame",
+    "price": 500,
+    "image": "Oakley.jpg",
+    "description": "Durable frame in yellow color"
+  },
+  {
+    "id": 8,
+    "name": "Distance Vision Tester",
+    "price": 700,
+    "image": "distance-tester.jpg",
+    "description": "Tool to test distance vision clarity"
+  },
+  {
+    "id": 9,
+    "name": "Microfiber Cloth",
+    "price": 150,
+    "image": "accessory-cloth.jpg",
+    "description": "Soft cleaning cloth for lenses"
+  },
+  {
+    "id": 10,
+    "name": "Pouches",
+    "price": 300,
+    "image": "accessory-pouch.jpg",
+    "description": "Protective pouch for glasses"
+  },
+  {
+    "id": 11,
+    "name": "Microfiber Cloth + Pouch",
+    "price": 450,
+    "image": "accessory-combo.jpg",
+    "description": "Combo of cloth and pouch"
+  },
+  {
+    "id": 12,
+    "name": "Lens -6D",
+    "price": 700,
+    "image": "lens-minus6.jpg",
+    "description": "Lens with -6 Diopters"
+  },
+  {
+    "id": 13,
+    "name": "Lens -4D",
+    "price": 700,
+    "image": "lens-minus4.jpg",
+    "description": "Lens with -4 Diopters"
+  },
+  {
+    "id": 14,
+    "name": "Lens -2D",
+    "price": 200,
+    "image": "lens-minus2.jpg",
+    "description": "Lens with -2 Diopters"
+  },
+  {
+    "id": 15,
+    "name": "Lens 0D",
+    "price": 700,
+    "image": "lens-0.jpg",
+    "description": "Neutral lens (0 Diopters)"
+  },
+  {
+    "id": 16,
+    "name": "Lens +2D",
+    "price": 700,
+    "image": "lens-plus2.jpg",
+    "description": "Lens with +2 Diopters"
+  },
+  {
+    "id": 17,
+    "name": "Lens +4D",
+    "price": 700,
+    "image": "lens-plus4.jpg",
+    "description": "Lens with +4 Diopters"
+  },
+  {
+    "id": 18,
+    "name": "Lens +6D",
+    "price": 700,
+    "image": "lens-plus6.jpg",
+    "description": "Lens with +6 Diopters"
+  },
+  {
+    "id": 19,
+    "name": "Near Vision Tester",
+    "price": 750,
+    "image": "near-tester.jpg",
+    "description": "Chart to test near vision"
+  },
+  {
+    "id": 20,
+    "name": "Eyeglass Cleaner",
+    "price": 150,
+    "image": "eyeglass-cleaner.jpg",
+    "description": "A gentle spray cleaner that safely removes smudges and dirt from lenses without scratching."
+  }
+]

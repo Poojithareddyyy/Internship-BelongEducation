@@ -1,0 +1,35 @@
+{
+  "name": "belongapp",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "cd backend && node index.js",
+    "client": "npm run start-react",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "start-react": "react-scripts start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "prop-types": "^15.8.1",
+    "react-icons": "^4.10.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^7.6.1",
+    "react-scripts": "^5.0.1"
+  }
+}

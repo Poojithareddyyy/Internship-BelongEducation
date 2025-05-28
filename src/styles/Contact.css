@@ -1,0 +1,208 @@
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-left {
+  flex: 1;
+  background-color: #063c28;
+  color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.contact-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-info h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ffb703;
+}
+
+.contact-info a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.contact-info a.whistleblower {
+  color: #ffb703;
+  font-weight: bold;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons i {
+  margin-right: 12px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.contact-right {
+  flex: 1;
+  background-color: #fdf6ef;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 100px;
+  margin-bottom: 400px;
+  
+
+}
+
+.contact-right h1 {
+  font-size: 50px;
+  color: #212529;
+  font-weight: bolder;
+ 
+  
+}
+
+.contact-right p {
+  font-size: 20px;
+  font-weight: 100px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  background: #f9f9f9;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ff6600;
+  background: #fff;
+}
+
+.send-btn {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.send-btn:hover {
+  background-color: #e55b00;
+}
+.footer {
+  background-color: #01080a;
+  color: #d3dfe8;
+  margin-top: 50px;
+  padding: 30px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-logo {
+  width: 150px;
+  
+  margin-bottom: 10px;
+}
+
+.footer-center h4,
+.footer-right h4 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.footer-center ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-center li {
+  margin-bottom: 8px;
+}
+
+.footer-center a {
+  text-decoration: none;
+  color: #d3dfe8;
+  transition: color 0.3s;
+}
+
+.footer-center a:hover {
+  color: #f58220;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.social-icons a {
+  color: #d3dfe8;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f58220;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 19px;
+  border-top: 1px solid #2e3d4c;
+  padding-top: 1px;
+  color: #aebecf;
+}
+
