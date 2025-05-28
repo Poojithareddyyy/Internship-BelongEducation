@@ -1,3 +1,8 @@
+NOTE:   The node_modules folder is not included in this repository. Please run npm install to install all necessary dependencies.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
